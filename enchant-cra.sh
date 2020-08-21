@@ -7,7 +7,7 @@ copy_file() {
   currentFile=$1
   printf "\nCopy $currentFile\n"
   cp "$configDir$currentFile" .
-  test -f "./$currentFile" && printf "Done!\n" || "Failed...\n"
+  test -f "./$currentFile" && printf "Done!\n" || printf "Failed...\n"
 }
 
 
