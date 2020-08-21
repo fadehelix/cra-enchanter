@@ -12,7 +12,7 @@ copy_file() {
 
 
 npm i node-sass
-npm i -D prettier eslint-config-prettier eslint-config-airbnb
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb
 
 copy_file ".env.development.local"
 copy_file ".eslintrc.json"
