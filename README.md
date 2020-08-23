@@ -1,5 +1,5 @@
-# cra-enchanter
-Simple bash script that copy/paste some files and install additional libraries.
+# Create React App Enchanter
+Simple bash script that copy/paste some files and install additional libraries in project bootstraped by phenomenal (Create React APP)[https://github.com/facebook/create-react-app].
 
 This script "enchants" default CRA configuration by such useful tools like:
 * [Prettier](https://prettier.io/) 
