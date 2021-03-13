@@ -11,10 +11,11 @@ copy_file() {
 }
 
 
-npm i node-sass
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb
+npm i node-sass 
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-react
 
 copy_file ".env.development.local"
 copy_file ".eslintrc.json"
+copy_file ".eslintignore"
 copy_file ".prettierrc.json"
 copy_file "jsconfig.json"
